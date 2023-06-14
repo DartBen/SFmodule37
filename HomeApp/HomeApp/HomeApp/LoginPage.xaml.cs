@@ -16,5 +16,9 @@ namespace HomeApp
         {
             InitializeComponent();
         }
+        private void Login_Click(object sender, EventArgs e)
+        {
+            loginButton.Text = "Выполняется вход...";
+        }
     }
 }
