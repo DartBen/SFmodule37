@@ -5,7 +5,7 @@ using System.Text;
 
 using Xamarin.Forms;
 
-namespace HomeApp
+namespace HomeApp.Pages
 {
     public class LoadingPage : ContentPage
     {
@@ -23,7 +23,7 @@ namespace HomeApp
             header.FadeTo(1, 3000);
 
             // Инициализация свойства Content новым элементом.
-            this.Content = header;
+            Content = header;
         }
     }
 }

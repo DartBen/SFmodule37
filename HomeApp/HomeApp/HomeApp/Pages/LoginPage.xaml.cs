@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
-namespace HomeApp
+namespace HomeApp.Pages
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class LoginPage : ContentPage
@@ -16,12 +16,10 @@ namespace HomeApp
         public const string BUTTON_TEXT = "Войти";
         // Переменная счетчика
         public static int loginCouner = 0;
-
         public LoginPage()
         {
             InitializeComponent();
         }
-
         /// <summary>
         /// По клику обрабатываем счётчик и выводим разные сообщения
         /// </summary>

@@ -5,7 +5,7 @@ using System.Text;
 
 using Xamarin.Forms;
 
-namespace HomeApp
+namespace HomeApp.Pages
 {
     public class SpanPage : ContentPage
     {
@@ -26,7 +26,7 @@ namespace HomeApp
 
             };
             // Добавление на страницу
-            this.Content = label;
+            Content = label;
         }
     }
 }
