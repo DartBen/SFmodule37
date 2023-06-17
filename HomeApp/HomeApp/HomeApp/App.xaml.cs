@@ -11,7 +11,8 @@ namespace HomeApp
         {
             InitializeComponent();
 
-            MainPage = new RegisterPage(); //new LoginPage(); // new LoadingPage();  new MainPage();
+            MainPage = new RoomsPage();
+                //new RegisterPage(); //new LoginPage(); // new LoadingPage();  new MainPage();
         }
 
         protected override void OnStart()
