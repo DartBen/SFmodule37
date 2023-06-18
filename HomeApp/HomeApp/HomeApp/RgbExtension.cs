@@ -1,7 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Drawing;
-using System.Text;
+using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
 namespace HomeApp
@@ -14,7 +12,7 @@ namespace HomeApp
 
         public object ProvideValue(IServiceProvider serviceProvider)
         {
-            return Color.FromArgb(Red, Green, Blue);
+            return Color.FromRgb(Red, Green, Blue);
         }
     }
 }
